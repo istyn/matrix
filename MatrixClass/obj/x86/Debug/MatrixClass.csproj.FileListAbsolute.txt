@@ -1,0 +1,15 @@
+c:\users\isaac\documents\visual studio 2010\Projects\MatrixClass\MatrixClass\bin\Debug\MatrixClass.exe
+c:\users\isaac\documents\visual studio 2010\Projects\MatrixClass\MatrixClass\bin\Debug\MatrixClass.pdb
+c:\users\isaac\documents\visual studio 2010\Projects\MatrixClass\MatrixClass\obj\x86\Debug\MatrixClass.exe
+c:\users\isaac\documents\visual studio 2010\Projects\MatrixClass\MatrixClass\obj\x86\Debug\MatrixClass.pdb
+C:\Users\Isaac\documents\visual studio 2010\Projects\MatrixClass\MatrixClass\obj\x86\Debug\MatrixClass.csprojResolveAssemblyReference.cache
+\\etsulab1\users\STYLES\My Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\obj\x86\Debug\MatrixClass.exe
+\\etsulab1\users\STYLES\My Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\obj\x86\Debug\MatrixClass.csprojResolveAssemblyReference.cache
+\\etsulab1\users\STYLES\My Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\bin\Debug\MatrixClass.exe
+\\etsulab1\users\STYLES\My Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\bin\Debug\MatrixClass.pdb
+\\etsulab1\users\STYLES\My Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\obj\x86\Debug\MatrixClass.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\obj\x86\Debug\MatrixClass.exe
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\obj\x86\Debug\MatrixClass.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\bin\Debug\MatrixClass.exe
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\bin\Debug\MatrixClass.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\obj\x86\Debug\MatrixClass.csprojResolveAssemblyReference.cache

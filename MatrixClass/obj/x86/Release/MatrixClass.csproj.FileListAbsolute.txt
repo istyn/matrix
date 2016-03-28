@@ -1,0 +1,9 @@
+c:\users\isaac\documents\visual studio 2010\Projects\MatrixClass\MatrixClass\bin\Release\MatrixClass.exe
+c:\users\isaac\documents\visual studio 2010\Projects\MatrixClass\MatrixClass\bin\Release\MatrixClass.pdb
+c:\users\isaac\documents\visual studio 2010\Projects\MatrixClass\MatrixClass\obj\x86\Release\MatrixClass.exe
+c:\users\isaac\documents\visual studio 2010\Projects\MatrixClass\MatrixClass\obj\x86\Release\MatrixClass.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\bin\Release\MatrixClass.exe
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\bin\Release\MatrixClass.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\obj\x86\Release\MatrixClass.exe
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\obj\x86\Release\MatrixClass.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\MatrixClass\MatrixClass\obj\x86\Release\MatrixClass.csprojResolveAssemblyReference.cache
