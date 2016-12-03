@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,47 +7,34 @@ namespace MatrixClass
 {
     class Vector : Matrix
     {
-        public int dimension;
+        public List<double> endpoint;
         private double magnitude;
         public bool IsUnitVector = false;
-        public Vector()
-        
+        public Vector(int dimensions)
         {
-            
+            magnitude = dimensions;
+            endpoint = new List<double>(dimensions);
         }
-
-        public Vector(Matrix v)
+        public Vector(Matrix v)                     //COPY CONSTRUCTOR for a 1xN matrix
         {
-            if (v.nCols == 1 || v.nRows == 1)               //if matrix dimension is 1 by some number
+            if (v.N == 1 || v.M == 1)               //if matrix dimension is 1 by some number
             {                
-                dimension = Math.Max(v.nRows, v.nCols);
+                magnitude = Math.Max(v.M, v.N);
                 
-                if (magnitude == 1)                 //is the vector a unit vector?
-                {
-                    IsUnitVector= true;
-                }
-                if (dimension == v.nCols)              //if row vector, transpose to column vector
-                {
-                    v.Transpose();
-                }
-                initVector(dimension,v.m);
-
-
+                initVector(endpoint.Count,v.Values);
             }
             else
-                throw new Exception("Matrix A is not a vector!");
-
-            
-
+                throw new Exception("Matrix A is not a vector!");   //defensive programming
         }
-
         public Vector(double[] components)
         {
-
+            magnitude = components.Length;
+            endpoint = new List<double>(components.Length);
+            
             for (int i = 0; i <= components.GetUpperBound(0); i++)
             {
-                base.m[i, 0] = components[i];//map each
-
+                //base.Values[i, 0] = components[i];//map each
+                endpoint.Add(components[i]);
             }
         }
 
@@ -55,15 +42,30 @@ namespace MatrixClass
         {
             if (dim > 1 && dim - 1 == components.GetUpperBound(0))//if at least in R2 with corresponding components
             {
-                base.m = new double[dim, 1];             //store vector as column vectors, by default
-                this.dimension = dim;
+                base.Values = new double[dim, 1];             //store vector as column vectors, by default
+                this.endpoint = new List<double>(dim);
                 for (int i = 0; i < dim; i++)
                 {                                           //deep copy components in array to Vector
-                    base.m[i, 0] = components[i, 0];
+                    base.Values[i, 0] = components[i, 0];
                 }
                 magnitude = MatrixNorm();
-                base.nRows = components.GetUpperBound(0) + 1;
-                base.nCols = 1;//because column vectors as default
+                base.M = components.GetUpperBound(0) + 1;
+                base.N = 1;//because column vectors as default
+            }
+        }
+        public bool getInUnitSpace()
+        {
+            double newMagnitude = 0;
+            for (int i = 0; i < endpoint.Count; i++)
+            {
+                if (endpoint[i]>newMagnitude)
+                {
+                    newMagnitude = endpoint[i];
+                }
+            }
+            for (int i = 0; i < endpoint.Count; i++)
+            {
+                endpoint[i] = endpoint[i] / magnitude;
             }
         }
         public override bool Equals(object obj)
@@ -76,4 +78,4 @@ namespace MatrixClass
             return base.ToString();
         }
     }
-}*/
+}
